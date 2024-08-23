@@ -14,15 +14,7 @@ genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 chat = model.start_chat(history=[])
 
-medical_keywords = [
-    signs, symptoms, identify, recognize, diagnose, appearance,
-fungal diseases, bacterial diseases, viral diseases, spots, lesions, yellowing leaves, wilting, growths, cause, reason, why, origin, sources, causes of disease, poor drainage, contamination, infected plants,
-overwatering, damp environment, fungal growth, root rot,early symptoms, initial signs, early stages, roots, leaves, stems, discoloration, leaf spots, premature leaf drop, reduced vigor,
-root symptoms, root rot, soft roots, mushy textures, foul smell, brown roots, black roots,treat, treatment, cure, remedy, manage, control, fix, solutions, fungicides, bactericides, organic methods, neem oil, copper sprays, beneficial microbes,
-removing affected parts, soil drainage, aeration,prevent, avoid, protection, best practices, tips, precautions, crop rotation, disease-resistant varieties, spacing, sanitation,
-soil health, drainage, plant immunity, disease outbreaks,climate conditions, spread, environment, humidity, warmth, fungal spread, bacterial spread, drought stress, plant diseases,
-spread to other crops, disease transmission, isolation, prompt management
-]
+medical_keywords = [signs,symptom]
 
 
 
