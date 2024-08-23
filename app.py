@@ -14,7 +14,7 @@ genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 chat = model.start_chat(history=[])
 
-medical_keywords = [signs,symptom]
+medical_keywords = ["signs","symptom"]
 
 
 
